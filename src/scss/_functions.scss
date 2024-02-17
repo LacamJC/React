@@ -1,0 +1,8 @@
+@function transicao(){
+    @return all 0.5s ease;
+}
+
+
+@function destacar(){
+    @return translateX(2px) translateY(2px) rotate(1deg);
+}

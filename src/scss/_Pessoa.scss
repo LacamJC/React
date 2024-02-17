@@ -1,0 +1,36 @@
+@import 'functions';
+.card
+{
+    border: 2px solid black;
+    background-color: white;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin: 20px;
+    transition: transicao();
+
+    &:hover{
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.267);
+        transform: destacar();
+    }
+
+    img{
+        width: 100px;
+    }
+
+    .dados
+    {
+        background-color: white;
+
+
+        p{
+            background-color: transparent;
+            padding: 5px 0px;
+        }
+    }
+
+}
